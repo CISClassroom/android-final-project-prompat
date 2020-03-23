@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "71272697475",
+    "firebase_url": "https://codezhub-85a4f.firebaseio.com",
+    "project_id": "codezhub-85a4f",
+    "storage_bucket": "codezhub-85a4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71272697475:android:06d8a2d45c8135032555b6",
+        "android_client_info": {
+          "package_name": "th.ac.kku.cis.mobileapp.CISCodeHub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71272697475-71aqjef9fq5t2oaeeb3dt50c6iafdjvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.ac.kku.cis.mobileapp.CISCodeHub",
+            "certificate_hash": "e1032808918c529e775fdb3be6de4c413d5c9aac"
+          }
+        },
+        {
+          "client_id": "71272697475-sa8cgot726q23u5pifr47mjmh4ota745.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIoxvmldQBspJF57bxxxMOph77Bxf6btk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71272697475-sa8cgot726q23u5pifr47mjmh4ota745.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
