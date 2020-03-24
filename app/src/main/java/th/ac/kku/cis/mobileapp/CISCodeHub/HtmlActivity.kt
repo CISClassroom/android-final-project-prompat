@@ -10,6 +10,7 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
+import kotlinx.android.synthetic.main.activity_html.*
 import th.ac.kku.cis.mobileapp.CISCodeHub.Adapter.htmlAdapter
 import th.ac.kku.cis.mobileapp.CISCodeHub.Model.Show
 
@@ -66,10 +67,9 @@ class HtmlActivity : AppCompatActivity() {
 
         }
     }
-
-
     )
+
+
+        btn_back_menu.setOnClickListener { onBackPressed()}
     }
-
-
 }

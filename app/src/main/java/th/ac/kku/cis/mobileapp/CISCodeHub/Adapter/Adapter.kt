@@ -9,9 +9,9 @@ import android.widget.TextView
 import th.ac.kku.cis.mobileapp.CISCodeHub.Model.Show
 import th.ac.kku.cis.mobileapp.CISCodeHub.R
 
-public class htmlAdapter (var mCtx: Context, var resource:Int, var item:List<Show>)
+class Adapter (var mCtx: Context, var resource:Int, var item:List<Show>)
     : ArrayAdapter<Show>( mCtx , resource , item) {
-    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View{
+    override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val layoutInflater: LayoutInflater = LayoutInflater.from(mCtx)
 
         val view: View = layoutInflater.inflate(resource,null)

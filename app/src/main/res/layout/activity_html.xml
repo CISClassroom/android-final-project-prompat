@@ -12,42 +12,53 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="match_parent"
+        <ImageButton
+            android:id="@+id/btn_back_menu"
+            android:layout_width="30dp"
             android:layout_height="match_parent"
             android:background="#FD5858"
+            android:backgroundTint="#FD5858"
+            app:srcCompat="@android:drawable/ic_menu_revert" />
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:fontFamily="@font/kanit_reg"
-            android:paddingTop="1sp"
-            android:paddingBottom="1sp"
-            android:text="HTML"
+            android:text="Html"
+            android:paddingStart="-48dp"
+            android:paddingTop="10dp"
+            android:background="#FD5858"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="30sp" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="488dp"
-        android:layout_height="77dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="6dp"
-        android:gravity="end"
-        android:orientation="horizontal">
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="92dp"-->
+<!--        android:layout_marginTop="6dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:layout_marginBottom="6dp"-->
+<!--        android:gravity="end"-->
+<!--        android:orientation="horizontal">-->
 
-        <!--        <TextView-->
-        <!--            android:id="@+id/txt_show_html"-->
-        <!--            android:layout_width="9dp"-->
-        <!--            android:layout_height="143dp"-->
-        <!--            android:layout_weight="wrap_content"-->
-        <!--            android:paddingLeft="5dp"/>-->
-        <!--&lt;!&ndash;            android:text="[id_HDML]"&ndash;&gt;-->
-        <!--            -->
-    </LinearLayout>
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView"-->
+<!--            android:layout_width="392dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            app:srcCompat="@drawable/html_logo" />-->
+<!--    </LinearLayout>-->
 
     <ListView
         android:id="@+id/listView_html"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        >
 
     </ListView>
 
