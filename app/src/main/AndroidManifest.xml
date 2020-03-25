@@ -11,7 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Pattern2Activity"></activity>
+        <activity android:name=".Start3Activity"></activity>
+        <activity android:name=".Start2Activity" />
+        <activity android:name=".Start1Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pattern2Activity" />
         <activity android:name=".PatternActivity" />
         <activity android:name=".PythonAddActivity" />
         <activity android:name=".KotlinAddActivity" />
@@ -19,17 +28,19 @@
         <activity android:name=".HtmlAddActivity" />
         <activity android:name=".PythonActivity" />
         <activity android:name=".KotlinActivity" />
-        <activity android:name=".HtmlActivity"></activity>
+        <activity android:name=".HtmlActivity" />
         <activity android:name=".JavaActivity" />
         <activity android:name=".LoginAdminActivity" />
         <activity android:name=".AdminActivity" />
         <activity android:name=".UserActivity" />
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
     </application>
 

@@ -19,10 +19,10 @@ class MainActivity : AppCompatActivity() {
 
        mAuth = FirebaseAuth.getInstance()
 
-        if(mAuth!!.currentUser !=null){
-            Log.d(TAG, "Continue with: "+mAuth!!.currentUser!!.email)
-            startActivity(Intent(this@MainActivity, AdminActivity::class.java))
-        }
+//        if(mAuth!!.currentUser !=null){
+//            Log.d(TAG, "Continue with: "+mAuth!!.currentUser!!.email)
+//            startActivity(Intent(this@MainActivity, AdminActivity::class.java))
+//        }
 
         btn_go_admin.setOnClickListener {
             startActivity(Intent(this@MainActivity, LoginAdminActivity::class.java))
